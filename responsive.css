@@ -1,0 +1,104 @@
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .header-list .bars {
+    display: block;
+    padding-right: 10px;
+    font-size: 15pt;
+  }
+
+  .header-list nav {
+    display: none;
+  }
+
+  .top {
+    padding: 20px 20px 40px;
+  }
+
+  .top-text {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .top-text p {
+    padding: 0;
+  }
+
+  .top-text a {
+    margin-top: 20px;
+  }
+
+  .top img {
+    float: none;
+    width: 100%;
+    margin: 10px 0;
+    padding-top: 20px;
+  }
+
+  .content {
+    padding: 40px;
+  }
+
+  .content h1 {
+    padding: 0;
+    margin-top: 30px;
+  }
+
+  .lesson {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .footer-logo {
+    text-align: center;
+    float: none;
+  }
+
+  .footer-list .courses,
+  .footer-list .social-media {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .lesson {
+    width: 45%;
+    margin: 10px;
+  }
+
+  .footer-logo {
+    float: left;
+  }
+
+  .footer-list {
+    float: right;
+  }
+
+  .footer-list {
+    float: right;
+    padding-bottom: 10px;
+  }
+
+  .courses,
+  .social-media {
+    margin: 10px 10px 0 0;
+    float: left;
+  }
+
+  .courses p,
+  .social-media p {
+    text-decoration: underline;
+    padding-bottom: 10px;
+    font-weight: 700;
+  }
+
+  .courses a,
+  .social-media a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .footer-list .fab {
+    padding-right: 5px;
+  }
+}
