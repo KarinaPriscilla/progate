@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  background: url("./img/background.jpg");
+  background-size: cover;
+}
+
+header {
+  border-bottom: 1px solid #000000;
+  height: 35pt;
+  line-height: 35pt;
+  font-weight: 700;
+}
+
+.header-logo {
+  float: left;
+  margin: 0 10px;
+  font-size: 18pt;
+}
+
+.header-logo .fa-mouse {
+  padding: 5px 10px 5px 0;
+}
+
+.header-list {
+  float: right;
+  font-size: 12pt;
+}
+
+.header-list a {
+  display: inline-block;
+  color: #000000;
+  margin: 0 10px;
+}
+
+.header-list a:hover {
+  border: 1px solid #000000;
+  padding: 6px 12px;
+  display: inline;
+  background: #000000;
+  color: #ffffff;
+}
+
+.header-list .bars {
+  display: none;
+}
+
+.top {
+  padding: 70px;
+  height: 500px;
+  border-bottom: 1px solid #000;
+}
+
+.top-text {
+  width: 45%;
+  float: left;
+  padding: 40px;
+  border: 1px solid #000000;
+  background-color: #ebebeb79;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.top-text p {
+  font-size: 18pt;
+  padding: 0 250px 20px 0;
+}
+
+.top-text a {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.top-text a:hover {
+  background: #ffffff;
+  color: #000000;
+  font-weight: 700;
+}
+
+.top img {
+  float: right;
+  width: 45%;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.content {
+  padding: 70px;
+}
+
+.content h1 {
+  text-align: center;
+  text-decoration: underline;
+  padding:20px 0 50px;
+}
+
+.lessons {
+  text-align: center;
+}
+
+.lesson {
+  flex-wrap: wrap;
+  display: inline-block;
+  width: 25%;
+  margin: 20px 30px;
+  border: 1px solid #000000;
+  position: relative;
+  box-shadow: 5px 19px 38px rgba(0, 0, 0, 0.3),
+    5px 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.lesson .fab {
+  font-size: 35pt;
+  text-align: right;
+  display: block;
+  padding: 20px 20px 100px 0;
+  background-color: #ebebeb79;
+}
+
+.ribbon {
+  padding: 10pt 5pt;
+  display: inline;
+  position: absolute;
+  right: 10px;
+}
+
+.ribbon-html {
+  background-color: #dd4b25;
+}
+
+.ribbon-css {
+  background-color: #0f6b9f;
+}
+
+.ribbon-js {
+  background-color: #d3b32d;
+}
+
+.ribbon-node {
+  background-color: #6da46b;
+}
+
+.ribbon-react {
+  background-color: #50bbe0;
+}
+
+.lesson h2 {
+  font-size: 15pt;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.lesson p {
+  padding: 0 10px 10px;
+  height: 30pt;
+}
+
+.lesson a {
+  color: #000000;
+  display: block;
+  padding: 10px 10px 20px;
+}
+
+.lesson h2,
+.lesson p,
+.lesson a {
+  background-color: #ffffff;
+  text-align: left;
+}
+
+footer {
+  border-top: 1px solid #000;
+}
+
+.footer-logo {
+  margin: 0 10px;
+  font-size: 18pt;
+  padding-top: 10px;
+  font-weight: 700;
+  float: left;
+}
+
+.footer-logo .fa-mouse {
+  padding: 5px 10px 5px 0;
+}
+
+.footer-list {
+  float: right;
+  padding-bottom: 10px;
+}
+
+.courses,
+.social-media {
+  margin: 10px 10px 0 0;
+  float: left;
+}
+
+.courses p,
+.social-media p {
+  text-decoration: underline;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+.courses a,
+.social-media a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer-list .fab {
+  padding-right: 5px;
+}
